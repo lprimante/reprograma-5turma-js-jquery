@@ -141,3 +141,11 @@ button:disabled {
 .campo-invalido {
     border: 1px solid red;
 }
+
+.abaixo-da-media {
+    background-color: red;
+}
+
+.nota-invalida {
+    background-color: yellow;
+}
