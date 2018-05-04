@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>{Reprograma} - Landingpage</title>
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="./img/logo.png" alt="logo">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#about" class="scrollSuave">Sobre</a></li>
+                    <li>
+                        <div class="menu1"><a href="#color" class="scrollSuave">Perfil</a>
+                            <div class="menu2">
+                                <ul>
+                                    <li><div>Login</div></li>
+                                    <li><div>Cadastre-se</div></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="#contact" class="scrollSuave">Contato</a></li>
+                    <li><img src="./img/search.png" alt="icon-search"></li>
+                </ul>
+            </div>
+        </nav>
+        <div>
+            <img class="img-header" src="./img/01.png" alt="img-header">
+        </div>
+    </header>
+    <main>
+        <section id="about">
+            <h1>Sobre</h1>
+            <img src="http://placehold.it/300x300" alt="image about">
+            <button id="btn-about">Clique em mim</button>
+            <p id="p-about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo atque accusamus quo nostrum quaerat, neque unde, impedit, ad facilis eius sequi pariatur aperiam maiores quod obcaecati minima. Nobis, veritatis a. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus, officiis quod nulla, doloribus ducimus provident ex labore eveniet similique sequi corporis nihil reprehenderit repellat obcaecati asperiores voluptate quos perspiciatis illum.</p>
+        </section>
+        <section id="color">
+        </section>
+        <section id="contact">
+            <h2>Entre em contato</h2>
+            <form>
+                <input type="text" name="nome" placeholder="Seu nome">
+                <input type="email" name="email" placeholder="Seu email">
+                <textarea name="mensagem" placeholder="Digite aqui sua mensagem" cols="30" rows="10"></textarea>
+                <button type="submit" value="submit">Clique para enviar</button>
+            </form>
+        </section>
+    </main>
+    <img src="./img/top.png" class="scrollToTop">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/script.js"></script>
+</body>
+</html>

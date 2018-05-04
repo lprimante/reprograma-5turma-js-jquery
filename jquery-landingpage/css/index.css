@@ -1,0 +1,108 @@
+* {
+    font-family: 'Open Sans Condensed', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menu > ul li {
+    font-family: 'Open Sans Condensed', Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    padding: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu > ul li:nth-child(4) {
+    padding-right: 0;
+}
+
+.img-header {
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.menu1 {
+    display: inline-block;
+}
+
+.menu2 {
+    position: absolute;
+    width: 105px;
+    height: 112px;
+    background-color: gray;
+    color: white;
+    display: none;
+}
+
+main, #contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#about, #contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100vh;
+    margin: 40px 0;
+}
+
+h1, h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 10px;
+}
+
+#p-about {
+    text-align: center;
+    line-height: 1.5rem;
+    margin: 10px 0;
+    display: none;
+}
+
+#about button, #contact form button {
+    padding: 10px;
+    margin: 10px;
+}
+
+#color {
+    height: 100vh;
+    width: 100%;
+    background-color: gray;
+}
+
+#contact form {
+    margin: 10px 0;
+}
+
+#contact input, #contact textarea {
+    border-radius: 4px;
+    margin: 5px;
+    width: 130%;
+    border-style: solid;   
+    padding: 5px;
+    font-size: 14px;
+}
+
+.scrollToTop {
+    position:fixed;
+    bottom:75px;
+    right:40px;
+    display:none;
+    padding: 10px;
+    background-color: lightgray;
+    font-weight: bold;
+    cursor: pointer;
+}
+
